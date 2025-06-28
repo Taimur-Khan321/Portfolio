@@ -42,4 +42,5 @@ export default defineEventHandler(async (event: H3Event) => {
     console.error('Error sending email:', error)
     return { error: error }
   }
+  // 
 })
